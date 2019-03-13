@@ -3,7 +3,7 @@ services:
   web:
     image: dockercloud/webapp
     ports:
-      - 8080
+      - 5000
     networks:
       - front-tier
       - back-tier
