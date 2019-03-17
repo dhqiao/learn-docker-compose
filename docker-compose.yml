@@ -2,7 +2,7 @@ version: '2'
 services:
   web:
     image: dockercloud/webapp
-    ports:
+    expose:
       - 5000
     networks:
       - front-tier
